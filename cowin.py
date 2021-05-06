@@ -22,6 +22,7 @@ headers = {'accept': 'application/json, text/plain, */*',
 
 response = requests.get(url=url, headers=headers).json()
 # print response
+print("")
 found = False
 try:
     for center in response["centers"]:
@@ -30,7 +31,9 @@ try:
             if session["available_capacity"] > 0:
                 print("Available on {} with minimun age limit of {} at {} capacity available : {} ".format(
                     session["date"], session["min_age_limit"], center["name"], session["available_capacity"]))
+                print("Available Slots are : {}".format(session["slots"]))
                 print("Location : {}".format(center["address"]))
+                print("")
                 found = True
     if not found:
         print("Sorry No Availabilities as of now. Please try again in an hour")
