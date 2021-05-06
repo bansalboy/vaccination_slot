@@ -8,7 +8,7 @@ try:
     DATE = raw_input(
         "Enter the date in this format DD-MM-YYYY ex: 05-05-2021 : ")
 except Exception as e:
-    DATE = input("Enter the date in this format DD-MM-YYYY ex: 05-05-2021 : ")
+    DATE = input("Enter the date in this format DD-MM-YYYY ex: 25-05-2021 : ")
 
 
 # PINCODE = "335512"
