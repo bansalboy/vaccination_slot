@@ -7,3 +7,17 @@
     python cowin.py
 
 Run the above command on Command line(Terminal). Enter the details (PINCODE and Date ) after the execution.
+
+**How to Read Result**
+
+If Slots are available then result will be like this:
+```
+Available on **06-05-2021** with *minimum age limit of 45* at SC SATIPURA capacity available : 100
+Available Slots are : [u'09:00AM-11:00AM', u'11:00AM-01:00PM', u'01:00PM-03:00PM', u'03:00PM-06:00PM']
+Location : SC SATIPURA Hanumangarh Junction Urban Primary Health Center
+```
+
+If Slots are not available then if will show message like
+```
+Sorry No Availabilities as of now. Please try again in an hour
+```

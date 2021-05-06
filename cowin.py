@@ -29,7 +29,7 @@ try:
         for session in center["sessions"]:
             # print session
             if session["available_capacity"] > 0:
-                print("Available on {} with minimun age limit of {} at {} capacity available : {} ".format(
+                print("Available on {} with minimum age limit of {} at {} capacity available : {} ".format(
                     session["date"], session["min_age_limit"], center["name"], session["available_capacity"]))
                 print("Available Slots are : {}".format(session["slots"]))
                 print("Location : {}".format(center["address"]))
