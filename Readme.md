@@ -1,3 +1,5 @@
+This Script will tell you about the Availability of Vaccination Slots with capacity. But you need to book the slot only from government authorised application or website.
+
 **Installtion Steps**
 1. Copy the script to local(on Computer) where python is installed.
 2. Install the library using pip(or any other method) for pip use command pip install -r requirements.txt
@@ -6,7 +8,7 @@
 
     python cowin.py
 
-Run the above command on Command line(Terminal). Enter the details (PINCODE and Date ) after the execution.
+Run the above command on Command line(Terminal). Enter the details (PINCODE and Date ) after the execution. Script will check the slots available for next seven days(from date mentioned by you). 
 
 **How to Read Result ?**
 
